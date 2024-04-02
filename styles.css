@@ -1,0 +1,28 @@
+h2,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  margin: 10px 20px;
+  padding: 2px;
+  list-style: none;
+}
+.weilei {
+  float: left;
+}
+ul li a {
+  display: block;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 15px;
+  text-decoration: none;
+  background: url(bg-0.png) no-repeat left center;
+}
+.weilei li a:hover {
+  color: #f00;
+  text-decoration: underline;
+  background: url(bg-1.jpg) no-repeat left center;
+}
